@@ -1,0 +1,10 @@
+module.exports = {
+    mysql_dev: {
+        host: 'localhost',
+        user: 'test',
+        password: 'test',
+        database: 'library',
+        connectionLimit: 10,
+        supportBigNumbers: true
+    }
+};

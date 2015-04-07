@@ -1,0 +1,17 @@
+{
+  "name": "test-mysql",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.x",
+    "jade": "*",
+    "mysql":"*",
+    "underscore":"*",
+    "node-schedule":"0.1.13",
+    "nan":"1.7.0",
+    "ccap":"0.6.0"
+  },
+  "devDependencies":{
+    "nodemon":"*"
+  }
+}
