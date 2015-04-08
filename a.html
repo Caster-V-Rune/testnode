@@ -3,37 +3,27 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
-	<style type="text/css"></style>
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+	<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+	<script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<form action="#" method="post">
-		<div>
-			<label for="name">name:</label>
-			<input type="text" name="name" id="name" value="" tabindex="1" />
-		</div>
-
-		<div>
-			<label for="passwd">name:</label>
-			<input type="password" name="passwd" id="passwd" value="" tabindex="1" />
-		</div>
-
-		<div>
-			<label for="passwdck">name:</label>
-			<input type="password" name="passwdck" id="passwdck" value="" tabindex="1" />
-		</div>
-		
-		<div>
-			<label for="url">name:</label>
-			<input type="url" name="url" id="url" value="http://" tabindex="1" />
-		</div>
-
-		<div>
-			<input type="submit" value="Submit" />
-		</div>
-
-		<div>
-			<input type="reset" value="Reset" />
-		</div>
+	<form>
+	  <div class="form-group">
+	    <label for="exampleInputEmail1">Email address</label>
+	    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+	  </div>
+	  <div class="form-group">
+	    <label for="exampleInputPassword1">Password</label>
+	    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+	  </div>
+	  <div class="checkbox">
+	    <label>
+	      <input type="checkbox"> Check me out
+	    </label>
+	  </div>
+	  <button type="submit" class="btn btn-default">Submit</button>
 	</form>
 </body>
 </html>

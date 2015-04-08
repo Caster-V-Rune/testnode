@@ -1,8 +1,5 @@
-//
-   Created by Rune on 2015/4/6.
+extends layout
 
-html
-    head
-        title!= title
-    body
-        h1!= message
+block content
+  h1= title
+  p Welcome to #{title}
